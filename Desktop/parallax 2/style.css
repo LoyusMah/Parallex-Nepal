@@ -1,0 +1,102 @@
+/* hero section */
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.hero {
+  height: 60vh;
+  position: relative;
+}
+.hero video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero > div {
+  position: absolute;
+  top: 10vh;
+  background: rgba(135, 207, 235, 0.203);
+  width: 450px;
+  left: 40vh;
+  padding: 1rem;
+  border-radius: 10px;
+  color: rgb(12, 13, 13);
+  backdrop-filter: blur(1px);
+}
+/* nav barz */
+
+nav {
+  background: blue;
+  color: aquamarine;
+  position: sticky;
+  top: 0;
+}
+nav > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
+nav ul {
+  display: flex;
+  gap: 1rem;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li:hover {
+  color: rgb(19, 167, 226);
+  transform: scale(1.4);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+/* images */
+[class^="img"] {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  background: rgba(0, 0, 0, 0.563);
+  color: white;
+  font-size: 2rem;
+  padding: 1.4rem 5rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+.img1 {
+  background: url(./assets/baudha.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img2 {
+  background: url(./assets/mountain2.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img3 {
+  background: url(./assets/second.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img4 {
+  background: url(./assets/third.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+footer {
+  background: rgba(95, 167, 176, 0.695);
+  color: white;
+  padding: 4rem;
+  text-align: center;
+  font-size: 2rem;
+}
